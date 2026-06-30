@@ -272,6 +272,31 @@
 }
 
 @media screen and (max-width: 830px) {
+   .mainSection1 {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .mainSection2 {
+    padding: 50px;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .mainSection1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .mainSection2 {
+    padding: 30px;
+  }
+  .contentSection4 {
+    .images {
+      gap: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 660px) {
   .header {
     .ulflex {
       display: none;
@@ -283,21 +308,6 @@
   .menu:hover {
     .menuflex {
       display: flex;
-    }
-  }
-}
-
-@media screen and (max-width: 488px) {
-  .mainSection1 {
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .mainSection2 {
-    padding: 40px;
-  }
-  .contentSection4 {
-    .images {
-      gap: 40px;
     }
   }
 }
